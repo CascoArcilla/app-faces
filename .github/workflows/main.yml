@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: hello-world
+    - name: faces-app
       run: echo "hello world workflows …"
     - name: install additional modules 
       run: pip install -r requirements.txt
